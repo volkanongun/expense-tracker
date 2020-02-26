@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import { GlobalContext } from '../context/GlobalState'
 
 const Transaction = (props) => {
-	console.log(props, " ∆")
+	// console.log(props, " ∆")
 
 	const {deleteTransaction } = useContext(GlobalContext)
 
